@@ -10,5 +10,6 @@ console.log("Número de vogais:" + vogais.length);
 
 //Lógica escrita:
 //1 Definimos a frase queríamos
-//2 Separamos a frase letra por letra
+//2 Separamos a frase letra por letra com a variavel split
 //3 Criamos a variavel vogais e usamos o .filter() para filtrar as vogais, em seguida usamos o .includes() que serve para incluir a letra maiúscula no array e o .toLowerCase() para mudar tudo para letra minúscula.
+//Obs: Tivemos que colocar todas as vogais com acento, pois antes de arrumar o codigo, elas não eram lidas.
